@@ -1,0 +1,30 @@
+.nav-link {
+    background-color: #068fde;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#navbar {
+    background-color: #65facd;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.main-section-header {
+    font-size:200%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
