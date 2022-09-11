@@ -11,12 +11,17 @@
 
 #navbar {
     background-color: #65facd;
+    justify-content: space-evenly;
+    top: 0;
+    left: 0;
     border: none;
     color: rgb(0, 0, 0);
     padding: 8px 12px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    position: fixed;
+    width: 100%;
     font-size: 25px;
 }
 
