@@ -8,7 +8,11 @@
     display: inline-block;
     font-size: 20px;
 }
-
+body{
+    display: flex;
+    flex-direction: row;
+    
+}
 #navbar {
     background-color: #65facd;
     justify-content: space-evenly;
@@ -20,8 +24,10 @@
     text-align: center;
     text-decoration: none;
     display: flex;
+    flex-direction: column;
     position: fixed;
-    width: 100%;
+    width: 20%;
+    height: 100%;
     font-size: 25px;
 }
 
@@ -29,8 +35,19 @@
     font-size:200%;
 }
 
-table, th, td {
+th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
+    width:16%;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+footer {
     text-align: center;
 }
